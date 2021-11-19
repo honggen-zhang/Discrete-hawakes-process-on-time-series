@@ -30,9 +30,9 @@ def cluster_data(str):
     return cluster_k
 
 
-file_path = '/home/user1/Desktop/experments_reuslts/data_generator/IP/data_graph2/data_label_norm/'
-cluster_file = '/home/user1/Desktop/ddhp/output_cluster/cluster_file/IP_C3_KG'
-loading_model_path = '/home/user1/Desktop/DHP/output_cluster/IP_c3/full_'+str(20)+'.pt'
+file_path = 'data/IP/data_label_norm/'
+cluster_file = 'cluster_file/IP_C3_KG'
+loading_model_path = 'meta_full_IP_c3.pt'
 
 #windows = [(2,26),(2,27),(2,28),(2,29),(2,30)]
 #windows = [(3,41),(3,42),(3,43),(3,44),(3,45)]
