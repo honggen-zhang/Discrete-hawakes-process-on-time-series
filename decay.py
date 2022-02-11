@@ -30,7 +30,7 @@ class DecayKernel(object):
     def values(self, dt: torch.Tensor) -> torch.Tensor:
         delay = self.parameters[0, 0]
         bandwidth = self.parameters[1, 0]
-        w = torch.sqrt(1 / bandwidth)  # ** 0.5
+        w = bandwidth  # ** 0.5
         #print('Beta:',w)
 
         dt2 = dt - delay
