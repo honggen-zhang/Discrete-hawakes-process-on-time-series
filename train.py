@@ -84,7 +84,7 @@ for i in range(len(windows)):
         
         num_type = 3
         kernel_para = np.zeros((2, 1))
-        kernel_para[1, 0] = 0.25
+        kernel_para[1, 0] = 0.5
         kernel_para = torch.from_numpy(kernel_para)
         kernel_para = kernel_para.type(torch.FloatTensor)
         kernel_dict = {'model_name': 'ExponentialKernel',
