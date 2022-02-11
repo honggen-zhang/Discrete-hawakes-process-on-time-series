@@ -1,5 +1,5 @@
 # Discrete-hawakes-process-on-time-series
-The code for the mode of DHP
+The code for the mode of DHP. For data clearn plz refer https://github.com/honggen-zhang/News2Knowledges
 ## Files explanation
 ### model_DHP.py
 The discrete Hawkes process model file. It defines the fiting function and prediting function.
